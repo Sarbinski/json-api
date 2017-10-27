@@ -1,26 +1,19 @@
 {
-    "type": "package",
-    "package": {
-        "name": "sarbinski/json-api",
-        "version": "dev-master",
-        "source": {
-            "url": "git://github.com/Sarbinski/json-api.git",
-            "type": "git",
-            "reference": "master"
-        },
-        "authors": [
-            {
-                "name": "Stanislav Sarbinski",
-                "email": "stansarbinski@gmail.com"
-            }
-        ],
-        "require": {
-            "php": ">=5.4.0"
-         },
-        "autoload": {
-            "psr-4" : {
-                "Sarbinski\\JsonApi\\" : "src/Sarbinski/JsonApi/"
-            }
+    "name": "sarbinski/json-api",
+    "homepage": "https://github.com/Sarbinski/json-api",
+    "description": "A response JSON API library for PHP",
+    "authors": [
+        {
+            "name": "Stanislav Sarbinski",
+            "email": "stansarbinski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+     },
+    "autoload": {
+        "psr-4" : {
+            "Sarbinski\\JsonApi\\" : "src/Sarbinski/JsonApi/"
         }
     }
 }
