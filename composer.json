@@ -3,6 +3,7 @@
     "homepage": "https://github.com/Sarbinski/json-api",
     "license": "MIT",
     "description": "A response JSON API library for PHP",
+    "version": "0.1",
     "authors": [
         {
             "name": "Stanislav Sarbinski",
