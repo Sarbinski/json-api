@@ -2,7 +2,7 @@
 
 ## Examples
 
-#### Example 1 - create JSON API data object from array
+#### Example 1 - create JSON API data object from an array
 ```php
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
@@ -68,7 +68,7 @@ class TestSchema extends Schema
 }
 ```
 
-#### Example 1 - create JSON API data object from Traversable object
+#### Example 2 - create JSON API data object from Traversable object
 
 Again we use ```TestSchema``` as a Schema adapter
 
